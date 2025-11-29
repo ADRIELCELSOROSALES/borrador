@@ -598,6 +598,7 @@ body {
     width: 100%;
     max-width: 450px;
     height: 100vh;
+    height: 100dvh; /* Usa dynamic viewport height para móviles */
     background: #FFFBF5;
     box-shadow: -4px 0 20px rgba(0, 0, 0, 0.2);
     z-index: 1001;
@@ -675,6 +676,7 @@ body {
     flex: 1;
     overflow-y: auto;
     padding: 1rem;
+    padding-bottom: 1.5rem;
     min-height: 0;
 }
 
@@ -1163,6 +1165,7 @@ body {
 
     .cart-footer {
         padding: 0.35rem 0.5rem;
+        padding-bottom: calc(0.35rem + env(safe-area-inset-bottom, 0px) + 1rem);
     }
 
     .delivery-title,
