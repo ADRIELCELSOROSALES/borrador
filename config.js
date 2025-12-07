@@ -7,7 +7,7 @@ const restaurantConfig = {
     // ===== CONFIGURACIÓN DE BARRA DE NAVEGACIÓN =====
     // Cambia este valor a 1 para activar la barra de navegación de vistas
     // Cambia este valor a 0 para desactivar la barra de navegación
-    navBar: 0, // 1 = activado, 0 = desactivado
+    navBar: 1, // 1 = activado, 0 = desactivado
 
     // ===== CONFIGURACIÓN DE VISTAS =====
     // Define qué secciones del menú se muestran en cada vista
